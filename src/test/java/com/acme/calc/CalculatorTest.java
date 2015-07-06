@@ -66,6 +66,7 @@ public class CalculatorTest {
 	    }
 	    //then
 	    Assert.assertTrue(thrown);
+	    
 	}
 
 
