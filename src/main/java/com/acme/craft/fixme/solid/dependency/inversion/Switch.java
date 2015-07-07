@@ -2,19 +2,11 @@ package com.acme.craft.fixme.solid.dependency.inversion;
 
 public class Switch {
 
-	private Lamp lamp;
 	private boolean pressed;
+	private Lamp l;
 
-	public Switch(Lamp lamp) {
-		this.lamp = lamp;
-	}
-
-	private void pressSwitch() {
+	public void pressSwitch() {
 		pressed = !pressed;
-		if (pressed) {
-			lamp.setOn(true);
-		} else {
-			lamp.setOn(false);
-		}
+		l.pressSwitch();
 	}
 }

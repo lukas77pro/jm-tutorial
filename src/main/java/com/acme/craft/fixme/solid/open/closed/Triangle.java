@@ -1,18 +1,13 @@
 package com.acme.craft.fixme.solid.open.closed;
 
-import lombok.Data;
-
-@Data
-public class Circle extends Shape {
-
+public class Triangle extends GraphicsEditor{
 	@Override
 	void draw() {
 		// TODO Auto-generated method stub
 		
 	}
 	
-	void drawCircle(){
+	void drawTriangle(){
 		
 	}
-	
 }

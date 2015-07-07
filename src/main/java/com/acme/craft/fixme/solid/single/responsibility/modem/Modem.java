@@ -5,7 +5,5 @@ interface Modem {
 
 	void hangup();
 
-	void send(char c);
 
-	char recv();
 }
